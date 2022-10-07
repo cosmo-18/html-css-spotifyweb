@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .copertine {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.container-code{
+    height: 100vh;
+}
+
+.column{
+    background-color: #191414;
+    display: flex;
+    flex: 1;
+}
+
+.barra-laterale{
+    background-color: #191414;
+    flex: 1;
+}
+
+
+
+.profile{
+    width: 30%;
+}
+
+.main{
+    background-color: #1c1d2d;
+    flex: 9;
+}
+
+.tit-sez{
+    padding:  8px;
+}
+
+span{
+    font-size: 8px;
+}
+
+.icon > img{
+    display: flex;
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.button-bar{
+    position: sticky;
+    z-index: 1;
+    text-align: right;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.4) ;
+}
+
+.upgrade{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.6) ;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 8px;
+}
+
+.prima-lista{
+    display: flex;
+    flex-direction: wrap;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin: 5px;
+    font-size: 6px;
+}
+
+.seconda-lista{
+    display: flex;
+    text-align: center;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 6px;
+}
+
+#release{
+    margin: 10px;
+}
+
+li{
+    color: rgb(200, 194, 194);
+}
+
+li:hover{
+    border-bottom: 2px solid #1DB954;
+    text-align: center;
+    color: white;
+}
+
+.copertine{
+    display: flex;
+    
+    text-align: center;
+}
+
+.ep{
+    flex-basis: calc(100%/2);
+    padding: 15px;
+}
+
+.ep > img{
+    width: 100%;
+}
+
+.sotto-titolo{
+    font-weight: lighter;
+    color: lightgray;
+    margin-top: 5px;
+    font-size: 8px;
+}
+
+.titolo-album{
+    font-size: 12px;
+}
+
+.foot{
+    background-color: #212121;
+    position: sticky;
+}
+
+.cont-copertina{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 5px; 
+}
+
+.player{
+    display: block;
+    width: 10%;
+    padding: 5px;
+}
+
+.nome-album{
+    font-size: 8px;
+    font-weight: lighter;
+}
+
+.sotto-titolo-2{
+    font-weight: lighter;
+    color: lightgray;
+    font-size: 5px;
+}
+
+.item{
+    text-align: right;
+    width: 10%;
+}
+
+i{
+    color: gray;
+}
