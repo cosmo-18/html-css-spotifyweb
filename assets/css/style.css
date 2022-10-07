@@ -13,6 +13,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+    
+    .prima-lista{
+        text-align: center;
+    }
+    
 }
 
 .container-code{
@@ -29,8 +34,6 @@
     background-color: #191414;
     flex: 1;
 }
-
-
 
 .profile{
     width: 30%;
@@ -58,16 +61,22 @@ span{
 
 .button-bar{
     position: sticky;
-    z-index: 1;
     text-align: right;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2) ;
+}
+
+.upgrade:hover{
+    padding: 15px 25px;
+}
+.button-bar:hover{
     padding: 15px;
-    background-color: rgba(0,0,0,0.4) ;
 }
 
 .upgrade{
     text-align: center;
-    padding: 10px 20px;
-    background-color: rgba(0,0,0,0.6) ;
+    padding: 8px 20px;
+    background-color: rgba(0,0,0,0.2) ;
     border-radius: 20px;
     border: 1px solid white;
     font-size: 8px;
@@ -110,12 +119,62 @@ li:hover{
 }
 
 .copertine{
-    display: flex;
-    
+    display: flex;    
     text-align: center;
 }
 
+.cont-img{
+    display: flex;
+    flex: 1;
+}
+
+.circle-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/einaudi.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.circle-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/youg.jpeg);
+    margin-left: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/mixdaily.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/radar.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.titolo-sez{
+    font-size: 12px;
+}
+
 .ep{
+
     flex-basis: calc(100%/2);
     padding: 15px;
 }
@@ -126,7 +185,7 @@ li:hover{
 
 .sotto-titolo{
     font-weight: lighter;
-    color: lightgray;
+    color: gray;
     margin-top: 5px;
     font-size: 8px;
 }
@@ -137,7 +196,6 @@ li:hover{
 
 .foot{
     background-color: #212121;
-    position: sticky;
 }
 
 .cont-copertina{
@@ -166,7 +224,7 @@ li:hover{
 
 .item{
     text-align: right;
-    width: 10%;
+    width: 8%;
 }
 
 i{
