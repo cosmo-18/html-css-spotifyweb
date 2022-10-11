@@ -14,8 +14,25 @@
         flex-wrap: wrap;
     }
     
-    .prima-lista{
-        text-align: center;
+    
+    ul{
+        display: none;
+    }
+
+    #logo-big{
+        display: none 
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    
+    ul{
+        display: none;
+    }
+
+    #logo{
+        display: none 
     }
     
 }
@@ -34,6 +51,7 @@
     background-color: #191414;
     flex: 1;
 }
+
 
 .profile{
     width: 30%;
@@ -224,9 +242,31 @@ li:hover{
 
 .item{
     text-align: right;
-    width: 8%;
+    width: 6%;
 }
+
 
 i{
     color: gray;
 }
+
+.center-part i {
+    display: flex;
+    padding: 0 10px;
+  }
+
+  .command-container {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-part {
+    justify-content: start;
+  }
+
+  .fa-circle-play {
+    font-size: 30px;
+  }
